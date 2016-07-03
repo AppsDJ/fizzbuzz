@@ -6,7 +6,9 @@ def fizzbuzz numbers
   elsif
     numbers % 3 == 0
     'fizz'
+  else
+    numbers
   end
 end
 
-# p fizzbuzz(6)
+# p fizzbuzz(4)

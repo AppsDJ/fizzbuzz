@@ -14,6 +14,9 @@ describe 'fizzbuzz' do
   it 'returns fizzbuz if given multiple of 3 and 5' do
     [15, 45, 90].each do |num|
       expect(fizzbuzz(num)).to eq 'fizzbuzz'
+    end
   end
-end
+  it "returns the number if the passed number is not divisible by either 3 or 5" do
+    expect(fizzbuzz(4)).to eq 4
+  end
 end
