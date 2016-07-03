@@ -1,14 +1,14 @@
-def fizzbuzz numbers
-  if numbers % 15 == 0
+def fizzbuzz number
+  if number % 15 == 0
     'fizzbuzz'
-  elsif numbers % 5 == 0
+  elsif number % 5 == 0
     'buzz'
   elsif
-    numbers % 3 == 0
+    number % 3 == 0
     'fizz'
   else
-    numbers
+    number
   end
 end
 
-# p fizzbuzz(4)
+p fizzbuzz(435)
