@@ -5,5 +5,10 @@ describe 'fizzbuzz' do
     [3,6,9,12].each do |num|
       expect(fizzbuzz(num)).to eq 'fizz'
     end
-end
+  end
+  it 'returns "buzz" if given multipe of 5' do
+    [5,10,20,25].each do |num|
+      expect(fizzbuzz(num)).to eq 'buzz'
+    end
+  end
 end
