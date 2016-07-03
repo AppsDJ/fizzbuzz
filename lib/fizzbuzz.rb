@@ -1,7 +1,12 @@
 def fizzbuzz numbers
-  if numbers % 3 == 0
+  if numbers % 15 == 0
+    'fizzbuzz'
+  elsif numbers % 5 == 0
+    'buzz'
+  elsif
+    numbers % 3 == 0
     'fizz'
   end
 end
 
-# fizzbuzz(3)
+# p fizzbuzz(6)

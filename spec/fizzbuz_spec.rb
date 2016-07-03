@@ -11,4 +11,9 @@ describe 'fizzbuzz' do
       expect(fizzbuzz(num)).to eq 'buzz'
     end
   end
+  it 'returns fizzbuz if given multiple of 3 and 5' do
+    [15, 45, 90].each do |num|
+      expect(fizzbuzz(num)).to eq 'fizzbuzz'
+  end
+end
 end
